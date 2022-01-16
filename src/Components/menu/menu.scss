@@ -1,0 +1,30 @@
+.menuBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(22, 230, 230);
+  padding: 1vw;
+  flex-wrap: wrap;
+}
+
+.menuItem {
+  padding: 1vw;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(7, 136, 241);
+  margin: 1vw;
+  color: white;
+  font-size: 1.3vw;
+  font-family: "Poppins", sans-serif;
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  width: 10%;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  background-color: rgb(118, 243, 16);
+  color: black;
+}

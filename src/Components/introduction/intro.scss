@@ -1,0 +1,41 @@
+@import "../homepage/homepage.scss";
+
+.profileDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 90vh;
+  // border: 2px solid red;
+  align-items: center;
+}
+
+.svgStyle {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.profileDescription {
+  max-width: 70%;
+  font-size: 1.3vw;
+  font-family: "Poppins", sans-serif;
+  padding: 1vw;
+  
+}
+
+.profileImage {
+  padding: 0vw;
+  width: 20vw;
+  min-width: 300px;
+}
+
+// Putting media queries
+
+@media only screen and (max-width: 950px) {
+  .profileDescription {
+    max-width: 100%;
+  }
+  .svgStyle {
+    visibility: hidden;
+  }
+}

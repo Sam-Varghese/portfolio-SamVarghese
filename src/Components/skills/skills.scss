@@ -1,0 +1,14 @@
+.skillsDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid;
+}
+
+.skillsIcon{
+    padding: 1vw;
+    margin: 1vw;
+    width: 8vw;
+    flex-shrink: 1;
+    background-color: rgb(0, 0, 0);
+}
