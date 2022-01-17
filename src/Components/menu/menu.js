@@ -11,7 +11,9 @@ function Menu() {
       <a href="http://localhost:3000/skills" className="menuItem">
         <div>Skills</div>
       </a>
-      <div className="menuItem">Certifications</div>
+      <a href="http://localhost:3000/certificates" className="menuItem">
+        <div>Certifications</div>
+      </a>
       <div className="menuItem">Projects</div>
       <div className="menuItem">Experience</div>
       <div className="menuItem">Contact</div>

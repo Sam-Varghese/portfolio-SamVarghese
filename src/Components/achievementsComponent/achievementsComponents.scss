@@ -1,8 +1,9 @@
 .achievement {
-  width: 30%;
-  height: 50%;
+  width: 40%;
+  height: 60%;
   border: 0.5vw ridge gold;
   padding: 0.5vw;
+  font-family: "Poppins", sans-serif;
   margin: 1vw;
   .achievementHeader{
       display: flex;
@@ -14,7 +15,7 @@
       display: flex;
       justify-content: center;
     //   border: 2px solid;
-      height: 35%;
+      height: 128px;
       padding-bottom: 1vw;
       padding-top: 1vw;
 

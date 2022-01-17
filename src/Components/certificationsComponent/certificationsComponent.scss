@@ -1,0 +1,46 @@
+.certificateDiv {
+  width: 30%;
+  font-family: "Poppins", sans-serif;
+  border: 0.5vw ridge gold;
+  padding: 1vw;
+  margin: 1vw;
+  font-size: 1vw;
+  text-decoration: none;
+  border-radius: 0.5vw;
+  .certificateTitle {
+    // color: blue;
+    font-size: 2vw;
+    text-align: center;
+    height: 3vw;
+    background-color: aliceblue;
+    margin-bottom: 1vw;
+  }
+  .certificateBanner {
+    display: flex;
+    margin-bottom: 1vw;
+    justify-content: center;
+    img {
+      width: 5vw;
+    }
+  }
+  .certificateDescription {
+    color: black;
+  }
+  .certificateViewButton {
+    padding: 1vw;
+    background-color: aqua;
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  .certificateViewButton:hover{
+      background-color: aquamarine;
+  }
+  a:link {
+    text-decoration: none;
+  }
+}

@@ -8,7 +8,7 @@ function AchievementsComponent(props) {
           <h1>{props.title}</h1>
         </div>
         <div className="achievementBanner">
-          <img src={require("./" + props.url)} />
+          <img src={require("./" + props.url)} alt={"Achievement: "+props.title}/>
         </div>
         <div className="achievementDescription">{props.description}</div>
       </div>

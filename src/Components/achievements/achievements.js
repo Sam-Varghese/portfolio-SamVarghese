@@ -9,8 +9,9 @@ let descriptions = data.achievementsDescription;
 
 console.log(`titles = ${titles}`);
 console.log(`images = ${images}`);
-// console.log(`descriptions = ${descriptions}`);
 let counter = 0;
+
+// Making an array of achievements components
 
 let achievementsList = titles.map((object, index) => {
   console.log(`Object is ${object}`);

@@ -1,21 +1,21 @@
 {
   "achievementsTitle": [
     "CR, NMIMS",
-    "Campus Ambassador, Devincept",
+    "Camp. Ambsdr, Devincept",
     "Microsoft Technology Associate",
     "5 ⭐ C++, Hackerrank",
     "3 ⭐ Prob. Solver, Hackerrank",
-    "A Grade NCC"
-    
+    "A Grade NCC",
+    "0.74% Stack Overflow"
   ],
   "achievementsImage": [
     "achievementsImages/NMIMS.jpg",
     "achievementsImages/devincept.jpg",
-    "achievementsImages/MTA.jpg",
+    "achievementsImages/MicLogo.png",
     "achievementsImages/hackerrank.jpg",
     "achievementsImages/hackerrank.jpg",
-    "achievementsImages/NCC.jpg"
-    
+    "achievementsImages/NCC.jpg",
+    "achievementsImages/stackOverflow.jpg"
   ],
   "achievementsDescription": [
     "Became the class representative of the MBATech branch of NMIMS, Indore for the year 2021. Dr Aaquil, the Dean of NMIMS, Indore selected me on the basis of previous grades. Had to represent the class, take important decisions, coordinate with professors, etc.",
@@ -23,7 +23,7 @@
     "Became a Microsoft Technology Associate in my 12th grade itself. Had to clear the Microsoft 98-381 exam, which is for python programming language in order to get recognized as a technology associate.",
     "Became a 5 ⭐ C++ coder at Hackerrank. Had to learn some advance C++ concepts like multiple inheritance, polymorhism, operator overloading etc. ",
     "Became a 3 ⭐ problem solver at hackerrank. C++ was my primary coding language while solving all the difficult and logical problems at Hackerrank.",
-    "Became an A grade National Cadet Corp due to my excellent performance. Had to attend camps, learn about rifles and instruments use by India Army in the borders."
-    
+    "Became an A grade National Cadet Corp due to my excellent performance. Had to attend camps, learn about rifles and instruments use by India Army in the borders.",
+    "Cleared the doubts of many beginners and experts at Stack Overflow for months. Thus "
   ]
 }

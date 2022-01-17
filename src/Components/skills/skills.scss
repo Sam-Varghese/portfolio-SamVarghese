@@ -2,13 +2,30 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 2px solid;
 }
 
 .skillsIcon{
-    padding: 1vw;
+    padding-top: 1vw;
     margin: 1vw;
     width: 8vw;
     flex-shrink: 1;
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(white, rgb(225, 0, 255), red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: 2px solid blue;
+    border-radius: 0.5vw;
+    height: 15vh;
+    svg{
+        width: 7vw;
+    }
+    img{
+        width: 7vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .skillsIcon{
+        height: 10vh;
+    }
 }

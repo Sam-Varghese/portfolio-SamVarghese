@@ -6,6 +6,7 @@ import Achievements from "./Components/achievements/achievements";
 import Introduction from "./Components/introduction/intro";
 import HomePage from "./Components/homepage/homepage";
 import Skills from "./Components/skills/skills";
+import DisplayCertificates from "./Components/certifications/certifications";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -20,6 +21,8 @@ export default function App() {
         <Route path="/introduction" element={<Introduction />}>
         </Route>
         <Route path="/skills" element={<Skills />}>
+        </Route>
+        <Route path="/certificates" element={<DisplayCertificates />}>
         </Route>
       </Routes>
     </BrowserRouter>
