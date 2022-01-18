@@ -1,0 +1,15 @@
+{
+    "projectTitle": ["Scientific Calculator", "Tuition Management System", "Website, Paul Classes", "Portfolio"],
+    "projectBannerLinks": [
+        "projectsBanner/calculator.webp",
+        "projectsBanner/tuitionManagement.png",
+        "projectsBanner/website.webp",
+        "projectsBanner/portfolio.png"
+    ],
+    "projectsUrl": [
+        "https://github.com/Sam-Varghese/Scientific-Calculator",
+        "https://github.com/Sam-Varghese/Hack-It-Out-Project",
+        "https://github.com/Sam-Varghese/PaulClassesWebsite",
+        ""
+    ]
+}

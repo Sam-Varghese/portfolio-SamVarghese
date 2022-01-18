@@ -1,0 +1,23 @@
+.contactDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid;
+  justify-content: center;
+  height: 90vh;
+  .contactIcons {
+    padding: 1vw;
+    margin: 1vw;
+    border: 2px solid;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(black, cyan, green);
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+    min-width: 40px;
+      width: 4vw;
+    }
+  }
+}

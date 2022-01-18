@@ -1,0 +1,47 @@
+{
+  "experienceTitle": [
+    "Google Developer Students Club, PR Core Team",
+    "Project Intern, Aista",
+    "Devincept Campus Ambassador",
+    "ICARUS, Pro Shows Core Team",
+    "Turing, Core Team",
+    "Ukriti, Linkedin Team",
+    "Backend Developer, Adsali"
+  ],
+  "experienceDuration": [
+    "Oct 2021 - Present",
+    "Dec 2021 - Jan 2021",
+    "Dec 2021 - Jan 2021",
+    "Sep 2021 - Present",
+    "Sept 2021 - Present",
+    "Sept 2021 - Present",
+    "Jun 2021 - Sept 2021"
+  ],
+  "experienceBanner": [
+    "experienceBanners/dsc.png",
+    "experienceBanners/Aista.jpg",
+    "experienceBanners/devincept.jpg",
+    "experienceBanners/Icarus.jpg",
+    "experienceBanners/Turing.jpg",
+    "experienceBanners/UKriti.jpg",
+    "experienceBanners/adsali.png"
+  ],
+  "experienceDescription": [
+    "Got selected in the public relation core team of Google Developer Students Club, NMIMS, Shirpur which consisted of only 3 students out of hundreds who gave interviews. NMIMS, Shirpur is just another branch of my university. I got top entrepreneurs and Adobe technical staffs for the Women In Tech Events. Mrs Deepa Sayal the top 100 MSME enterpreneur, founder at IWIL India, CEO at ADG online) Entrepreneur, a Startup Mentor and Impact activist was a guest I personally invited in the women in tech event. This women in tech was in collaboration with the 16 most prominent GDSC's of different universities including IIIT's.",
+    "Got an internship at a startup in Norway as an angular developer. I created a website for the startup in Angular js. Learnt a lot from the experience and knowledge of the CEO of Aista",
+    "Got selected as a campus ambassador at devincept after an interview by it's organizers and leads. Had to find leads for its events, attend it's sessions, and many more.",
+    "Icarus is the cultural committee of NMIMS, Indore university. I was the core team member of the pro-shows sub committee, which is responsible for finding guests for all it's events.",
+    "Turing is the technical committee of NMIMS, Indore. I am the core tam member of this committee. ",
+    "Ukriti is the entrepreneurship club of NMIMS, Indore. I'm the core team member of this committee. I published articles and helped them in maintain their linkedin profile.",
+    "Worked as a backed developer at Adsali Technologies. Made the backend using flask (python)."
+  ],
+  "experienceLearnings": [
+    ["Public relations", "Communications", "Professionally dealing with people"],
+    ["Angular JS", "Endpoints", "Sass", "UI/ UX", "Angular Material"],
+    ["Open Source", "Metaverse", "Community building"],
+    ["Public relations", "Communications"],
+    ["Competitive Programming", "Web Development", "Prototyping using Figma", "C++"],
+    ["Entrepreneurship", "Making articles", "Public relations", "Handling Linkedin"],
+    ["Flask", "HTML", "CSS", "Bootstrap"]
+  ]
+}
