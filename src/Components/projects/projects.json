@@ -10,6 +10,24 @@
         "https://github.com/Sam-Varghese/Scientific-Calculator",
         "https://github.com/Sam-Varghese/Hack-It-Out-Project",
         "https://github.com/Sam-Varghese/PaulClassesWebsite",
-        ""
+        "https://github.com/Sam-Varghese/portfolio-SamVarghese"
+    ],
+    "projectsDescription": [
+        "Made a scientific calculator out of HTML, CSS and JavaScript. Learnt Math.js framework and about API's.",
+        "This is a software I made for the Hack It Out hackathon. It's basically a software to manage coaching classes. Frontend part has been done, but backend work is left. Learnt many frameworks while working on this project.",
+        "This is a website I made for my father's coaching classes when I was in 12th grade. Made it with HTML, CSS and JavaScript. Used Google maps API too.",
+        "An this is my portfolio which I made in React js. This is my first project in React js. I learnt this amazing framework while working on my portfolio project."
+    ],
+    "projectDuration": [
+        "Sept 2021 - Sept 2021",
+        "Oct 2021 - Oct 2021",
+        "Mar 2021 - Sept 2021",
+        "Dec 2021 - Jan 2021"
+    ],
+    "projectsLearning": [
+        ["HTML", "CSS", "JavaScript", "Math.js", "Desmos API"],
+        ["Plot.js", "HTML", "CSS", "Express Js", "Bootstrap", "Tabulator Js", "Chart Js"],
+        ["HTML", "CSS", "JavaScript", "Google Maps API"],
+        ["React Js", "Sass", "Figma", "CSS", "HTML"]
     ]
 }

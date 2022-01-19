@@ -61,12 +61,11 @@ function Contact() {
           </div>
         </a>
         <a
-          href="https://twitter.com/SamVarg05580035"
-          target="_blank"
+          href="mailto: sam.varg.2003@gmail.com"
           className="contactIcons"
         >
           <div>
-            <img src={require("./icons/twitter.png")} />
+            <img src={require("./icons/mail.png")} />
           </div>
         </a>
       </div>

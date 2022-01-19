@@ -2,13 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  border: 2px solid;
   justify-content: center;
   height: 90vh;
   .contactIcons {
     padding: 1vw;
     margin: 1vw;
-    border: 2px solid;
     border-radius: 0.5vw;
     background-image: linear-gradient(black, cyan, green);
     min-width: 60px;

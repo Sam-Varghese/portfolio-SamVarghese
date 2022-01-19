@@ -14,7 +14,7 @@ function Menu() {
       <a href="http://localhost:3000/certificates" className="menuItem">
         <div>Certifications</div>
       </a>
-      <a href="http://localhost:3000/experience" className="menuItem">
+      <a href="http://localhost:3000/projects" className="menuItem">
         <div>Projects</div>
       </a>
       <a href="http://localhost:3000/experience" className="menuItem">

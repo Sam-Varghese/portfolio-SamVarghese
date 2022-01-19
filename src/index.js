@@ -9,6 +9,7 @@ import Skills from "./Components/skills/skills";
 import DisplayCertificates from "./Components/certifications/certifications";
 import Experience from "./Components/experience/experience";
 import Contact from "./Components/contact/contact";
+import Projects from "./Components/projects/projects";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -29,6 +30,8 @@ export default function App() {
         <Route path="/experience" element={<Experience />}>
         </Route>
         <Route path="/contact" element={<Contact />}>
+        </Route>
+        <Route path="/projects" element={<Projects />}>
         </Route>
       </Routes>
     </BrowserRouter>
