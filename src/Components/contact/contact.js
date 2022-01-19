@@ -4,7 +4,7 @@ import Menu from "../menu/menu";
 function Contact() {
   return (
     <div>
-      <Menu />
+      <Menu forPage="Contact"/>
       <div className="contactDiv">
         <a
           href="https://discord.gg/qW9CGayxMf"

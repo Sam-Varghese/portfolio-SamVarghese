@@ -29,7 +29,7 @@ console.log(achievementsList[0]);
 function Achievements() {
   return (
     <div>
-      <Menu />
+      <Menu forPage="Achievements"/>
       <div className="achievementsDiv">{achievementsList}</div>
     </div>
   );

@@ -23,7 +23,7 @@ const certificatesComponentList = certificateTitles.map((object, index) => {
 function DisplayCertificates() {
   return (
     <div>
-      <Menu />
+      <Menu forPage="Certifications"/>
       <div className="certificatesDiv">{certificatesComponentList}</div>
     </div>
   );

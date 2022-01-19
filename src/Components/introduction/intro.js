@@ -4,7 +4,7 @@ import Menu from "../menu/menu";
 function Introduction() {
   return (
     <div>
-        <Menu />
+        <Menu forPage = "Introduction"/>
       <div className="profileDiv">
         <svg
           width="945"

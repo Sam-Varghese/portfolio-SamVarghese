@@ -8,14 +8,19 @@
     padding: 1vw;
     margin: 1vw;
     border-radius: 0.5vw;
-    background-image: linear-gradient(black, cyan, green);
+    background-image: linear-gradient(cyan, green, black);
     min-width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all;
     img {
-    min-width: 40px;
+      min-width: 40px;
       width: 4vw;
     }
+  }
+  .contactIcons:hover {
+    background-color: rgb(77, 228, 18);
+    background-image: none;
   }
 }

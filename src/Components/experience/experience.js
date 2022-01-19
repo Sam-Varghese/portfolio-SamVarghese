@@ -25,7 +25,7 @@ const experienceComponents = titles.map((object, index) => {
 function Experience() {
   return (
     <div>
-      <Menu />
+      <Menu forPage="Experience"/>
       <div className="experienceDiv">{experienceComponents}</div>
     </div>
   );

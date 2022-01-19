@@ -4,7 +4,7 @@ import Menu from "../menu/menu";
 function Skills() {
   return (
     <div>
-      <Menu />
+      <Menu forPage="Skills"/>
       <div className="skillsDiv">
         {/* Icons are being taken from here https://devicon.dev/ */}
         {/* Angular svg */}
