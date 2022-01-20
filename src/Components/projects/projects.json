@@ -1,9 +1,9 @@
 {
     "projectTitle": ["Scientific Calculator", "Tuition Management System", "Website, Paul Classes", "Portfolio"],
     "projectBannerLinks": [
-        "projectsBanner/calculator.webp",
+        "projectsBanner/calculator.png",
         "projectsBanner/tuitionManagement.png",
-        "projectsBanner/website.webp",
+        "projectsBanner/website.png",
         "projectsBanner/portfolio.png"
     ],
     "projectsUrl": [
