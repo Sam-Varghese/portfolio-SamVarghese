@@ -1,6 +1,12 @@
 import "./contact.scss";
 import Menu from "../menu/menu";
-import githubIcon  from './icons/github.png';
+import discordIcon from './icons/discord.png';
+import facebookIcon from './icons/facebook.png';
+import githubIcon from './icons/github.png';
+import instagramIcon from './icons/instagram.png';
+import linkedinIcon from './icons/linkedin.png';
+import twitterIcon from './icons/twitter.png';
+import mailIcon from './icons/mail.png';
 
 function Contact() {
   return (
@@ -13,7 +19,7 @@ function Contact() {
           className="contactIcons"
         >
           <div>
-            <img src={require("./icons/discord.png")} />
+            <img src={discordIcon} />
           </div>
         </a>
         <a
@@ -22,7 +28,7 @@ function Contact() {
           className="contactIcons"
         >
           <div>
-            <img src={require("./icons/facebook.png")} />
+            <img src={facebookIcon} />
           </div>
         </a>
         <a
@@ -40,7 +46,7 @@ function Contact() {
           className="contactIcons"
         >
           <div>
-            <img src={require("./icons/instagram.png")} />
+            <img src={instagramIcon} />
           </div>
         </a>
         <a
@@ -49,7 +55,7 @@ function Contact() {
           className="contactIcons"
         >
           <div>
-            <img src={require("./icons/linkedin.png")} />
+            <img src={linkedinIcon} />
           </div>
         </a>
         <a
@@ -58,7 +64,7 @@ function Contact() {
           className="contactIcons"
         >
           <div>
-            <img src={require("./icons/twitter.png")} />
+            <img src={twitterIcon} />
           </div>
         </a>
         <a
@@ -66,7 +72,7 @@ function Contact() {
           className="contactIcons"
         >
           <div>
-            <img src={require("./icons/mail.png")} />
+            <img src={mailIcon} />
           </div>
         </a>
       </div>
