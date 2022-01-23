@@ -1,8 +1,9 @@
 {
+  "short_name": "App",
   "name": "App",
   "icons": [
     {
-      "src": "android-icon-36x36.png",
+      "src": "/android-icon-36x36.png",
       "sizes": "36x36",
       "type": "image/png",
       "density": "0.75"

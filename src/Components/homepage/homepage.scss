@@ -1,10 +1,10 @@
 .bottomCurveSVG{
     width: 100%;
-    // border: 2px solid;
+    // border: 2px solid red;
     // height: 30vh;
     // margin-top: 48vh;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: -10vh;
     overflow: hidden;
 }
 .outerDiv{
@@ -16,12 +16,12 @@
 .svgDiv{
     height: 80vh;
     overflow: hidden;
-    // border: 2px solid;
+    // border: 2px solid;   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    // background-color: rgb(211, 233, 13);
+    background-color: rgb(211, 233, 13);
 }
 
 .samSVG{
