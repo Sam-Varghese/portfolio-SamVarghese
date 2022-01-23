@@ -1,7 +1,7 @@
-import React, {useEffect} from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 // import './index.css';
-import Menu from "./Components/menu/menu";
+// import Menu from "./Components/menu/menu";
 import Achievements from "./Components/achievements/achievements";
 import Introduction from "./Components/introduction/intro";
 import HomePage from "./Components/homepage/homepage";
@@ -12,11 +12,9 @@ import Contact from "./Components/contact/contact";
 import Projects from "./Components/projects/projects";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ReactGA from 'react-ga';
 
 export default function App() {
-  ReactGA.initialize("G-WSM5XT1D9E");
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  
   return (
     <BrowserRouter>
       <Routes>

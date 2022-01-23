@@ -1,9 +1,12 @@
+import ReactGA from "react-ga";
 import "./menu.scss";
 
 // Function to highlight the menu item which is currently getting rendered
 // forPage is the name of the webpage the user has currently opened
 // pageName is the name associated with every menu item which describes the page that menu item is meant to render
 function renderMenuItem(forPage, pageName, trueOutput, falseOutput) {
+  ReactGA.initialize("G-WSM5XT1D9E");
+  ReactGA.pageview(window.location.pathname + window.location.search);
   // If the page which user has opened is not the page menu item is meant to render
   if (forPage != pageName) {
     // false output is the regular menu item
