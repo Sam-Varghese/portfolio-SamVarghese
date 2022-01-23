@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // import './index.css';
-// import Menu from "./Components/menu/menu";
+import Menu from "./Components/menu/menu";
 import Achievements from "./Components/achievements/achievements";
 import Introduction from "./Components/introduction/intro";
 import HomePage from "./Components/homepage/homepage";
