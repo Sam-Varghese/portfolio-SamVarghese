@@ -36,3 +36,25 @@
         width: 50%;
     }
 }
+
+
+@media screen and (max-width: 600px){
+    .achievementHeader{
+        h1{
+            font-size: 4vw;display: flex;
+      justify-content: center;
+      background-color: beige;
+        }
+    }
+
+    .achievementBanner{
+        img{
+            width: 50vw;
+            object-fit: none;
+        }
+    }
+
+    .achievement{
+        width: 90%;
+    }
+}
