@@ -52,7 +52,31 @@
   .projectViewButton:hover {
     background-color: aquamarine;
   }
-  a{
+  a {
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .experience {
+    .experienceTitle {
+      font-size: 4vw;
+      display: flex;
+      justify-content: center;
+    }
+    .experienceBanner{
+      img{
+        width: 30vw;
+      }
+    }
+    .subHeadings{
+      font-size: 3.5vw;
+    }
+    .experienceDescription{
+      font-size: 3vw;
+    }
+    .techsWorkedWith{
+      font-size: 3vw;
+    }
   }
 }
