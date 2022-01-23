@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import ReactDOM from "react-dom";
 // import './index.css';
 import Menu from "./Components/menu/menu";
@@ -12,8 +12,13 @@ import Contact from "./Components/contact/contact";
 import Projects from "./Components/projects/projects";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ReactGa from 'react-ga';
 
 export default function App() {
+  useEffect(() => {
+    ReactGa.initialize("G-WSM5XT1D9E");
+    ReactGa.pageview('/');
+  }, [])
   return (
     <BrowserRouter>
       <Routes>
