@@ -22,22 +22,24 @@
   // width: 10%;
   min-width: 100px;
   text-decoration: none;
-  .menuItemActive {
-    padding: 1vw;
-    text-align: center;
-    display: inline-block;
-    background-color: rgb(218, 241, 7);
-    margin: 1vw;
-    color: black;
-    font-size: 1.3vw;
-    font-family: "Poppins", sans-serif;
-    transition: all;
-    transition-duration: 0.5s;
-    border-radius: 0.5vw;
-    cursor: pointer;
-    width: 10%;
-    text-decoration: none;
-  }
+}
+.menuItemActive {
+  padding: 1vw;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(218, 241, 7);
+  font-size: 1.3vw;
+  margin: 1vw;
+  color: black;
+  // font-size: 1.3vw;
+  font-family: "Poppins", sans-serif;
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  min-width: 100px;
+  // width: 10%;
+  text-decoration: none;
 }
 
 .menuItem:hover {
@@ -49,6 +51,9 @@
 
 @media only screen and (max-width: 600px){
   .menuItem{
+    font-size: 3vw;
+  }
+  .menuItemActive{
     font-size: 3vw;
   }
 }

@@ -15,6 +15,7 @@ function renderMenuItem(forPage, pageName, trueOutput, falseOutput) {
 }
 
 const link = "https://www.sam-varghese.com/";
+// const link = "http://localhost:3000/";
 
 // Function to render all the menu items
 function Menu(props) {
