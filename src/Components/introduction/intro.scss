@@ -31,6 +31,12 @@
 
 // Putting media queries
 
+@media only screen and (max-width: 600px){
+  .profileDescription{
+    font-size: 3vw;
+  }
+}
+
 @media only screen and (max-width: 950px) {
   .profileDescription {
     max-width: 100%;
