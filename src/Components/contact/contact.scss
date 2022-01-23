@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  // border: 2px solid;
+  height: 85vh;
   .contactIcons {
     padding: 1vw;
     margin: 1vw;
@@ -16,11 +17,28 @@
     transition: all;
     img {
       min-width: 40px;
-      width: 4vw;
+      width: 6vw;
     }
   }
   .contactIcons:hover {
     background-color: rgb(77, 228, 18);
     background-image: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .contactDiv{
+    display: flex;
+    justify-content: center;
+    .contactIcons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3vw;
+      img{
+        width: 10vw;
+        padding: 2vw;
+      }
+    }
   }
 }
