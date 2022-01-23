@@ -5,56 +5,56 @@
   padding: 0.5vw;
   font-family: "Poppins", sans-serif;
   margin: 1vw;
-  .achievementHeader{
-      display: flex;
-      justify-content: center;
-      background-color: beige;
-      font-size: 1vw;
+  .achievementHeader {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    font-size: 1vw;
   }
-  .achievementBanner{
-      display: flex;
-      justify-content: center;
+  .achievementBanner {
+    display: flex;
+    justify-content: center;
     //   border: 2px solid;
-      height: 128px;
-      padding-bottom: 1vw;
-      padding-top: 1vw;
+    height: 128px;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
 
-      img{
-          object-fit: cover;
-          height: 80%;
-      }
-  }
-  .achievementDescription{
-      padding: 1vw;
-      background-color: aliceblue;
-  }
-}
-
-@media screen and (max-width: 950px){
-    .achievement{
-        height: 55%;
-        width: 50%;
+    img {
+      object-fit: cover;
+      height: 80%;
     }
+  }
+  .achievementDescription {
+    padding: 1vw;
+    background-color: aliceblue;
+  }
 }
 
+@media screen and (max-width: 950px) {
+  .achievement {
+    height: 55%;
+    width: 50%;
+  }
+}
 
-@media screen and (max-width: 600px){
-    .achievementHeader{
-        h1{
-            font-size: 4vw;display: flex;
+@media screen and (max-width: 600px) {
+  .achievementHeader {
+    h1 {
+      font-size: 4vw;
+      display: flex;
       justify-content: center;
       background-color: beige;
-        }
     }
+  }
 
-    .achievementBanner{
-        img{
-            width: 50vw;
-            object-fit: none;
-        }
+  .achievementBanner {
+    img {
+      width: 50vw;
+      object-fit: none;
     }
+  }
 
-    .achievement{
-        width: 90%;
-    }
+  .achievement {
+    width: 90%;
+  }
 }

@@ -45,3 +45,20 @@
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 600px){
+  .certificateDiv{
+    width: 90%;
+    .certificateTitle{
+      font-size: 4vw;
+    }
+    .certificateBanner{
+      img{
+        width: 15vw;
+      }
+    }
+    .certificateDescription{
+      font-size: 3vw;
+    }
+  }
+}
