@@ -1,12 +1,13 @@
 import ReactGA from "react-ga";
+import { useEffect } from "react";
 import "./menu.scss";
+ReactGA.initialize("G-WSM5XT1D9E"); 
 
 // Function to highlight the menu item which is currently getting rendered
 // forPage is the name of the webpage the user has currently opened
 // pageName is the name associated with every menu item which describes the page that menu item is meant to render
 function renderMenuItem(forPage, pageName, trueOutput, falseOutput) {
-  ReactGA.initialize("G-WSM5XT1D9E");
-  ReactGA.pageview(window.location.pathname + window.location.search);
+   
   // If the page which user has opened is not the page menu item is meant to render
   if (forPage != pageName) {
     // false output is the regular menu item
@@ -25,6 +26,10 @@ const link = "https://www.sam-varghese.com/";
 
 // Function to render all the menu items
 function Menu(props) {
+  useEffect(() => {
+    // This line will trigger on a route change
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  });
   return (
     <div className="menuBar">
       {/* Introduction menu item */}
