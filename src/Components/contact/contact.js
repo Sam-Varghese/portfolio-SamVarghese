@@ -1,5 +1,6 @@
 import "./contact.scss";
 import Menu from "../menu/menu";
+import githubIcon  from './icons/github.png';
 
 function Contact() {
   return (
@@ -30,7 +31,7 @@ function Contact() {
           className="contactIcons"
         >
           <div>
-            <img src={require("./icons/github.png")} />
+            <img src={githubIcon} />
           </div>
         </a>
         <a
