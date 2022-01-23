@@ -1,31 +1,57 @@
-.skillsDiv{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.skillsDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.skillsIcon{
-    padding-top: 1vw;
-    margin: 1vw;
-    width: 8vw;
-    flex-shrink: 1;
-    background-image: linear-gradient(white, rgb(225, 0, 255), rgb(10, 9, 9));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // border: 2px solid blue;
-    border-radius: 0.5vw;
-    height: 15vh;
-    svg{
-        width: 7vw;
-    }
-    img{
-        width: 7vw;
-    }
+.skillsIcon {
+  padding-top: 1vw;
+  margin: 1vw;
+  width: 8vw;
+  flex-shrink: 1;
+  background-image: linear-gradient(white, rgb(225, 0, 255), rgb(10, 9, 9));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // border: 2px solid blue;
+  border-radius: 0.5vw;
+  height: 15vh;
+  svg {
+    width: 7vw;
+  }
+  img {
+    width: 7vw;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .skillsIcon{
-        height: 10vh;
+  .skillsIcon {
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skillsIcon {
+    height: 20vh;
+    width: 20vw;
+    svg {
+      width: 10vw;
     }
+    img {
+      width: 10vw;
+    }
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .skillsIcon {
+    height: 20vh;
+    width: 20vw;
+    svg {
+      width: 15vw;
+    }
+    img {
+      width: 15vw;
+    }
+  }
 }
