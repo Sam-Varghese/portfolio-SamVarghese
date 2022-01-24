@@ -9,6 +9,7 @@ Hey folks this is the repository containing the source code of [my portfolio](sa
 - [AWS](https://aws.amazon.com/)
 - [AWS Route 53](https://aws.amazon.com/route53/)
 - [AWS Amplify](https://aws.amazon.com/amplify/)
+- [Git](https://git-scm.com/)
 
 This repository is connected with [AWS Amplify](https://aws.amazon.com/amplify/). So every time I push a code, continuous deployment takes place, and [sam-varghese.com](sam-varghese.com) automatically gets updated with the pushed code.
 
@@ -30,3 +31,13 @@ In order to run this application locally, follow these steps
 4. Now move to the cloned repository (Change directory). Execute the command `cd portfolio-SamVarghese`
 5. Now in order to run the application, execute the command `npm start`
 6. This will initialize the application and open [http://localhost:3000/](http://localhost:3000/) automatically.
+
+**Feel free to open an issue in case of any difficulty while setting up the project**
+
+# Contributions
+
+- Contributions of all kinds are welcomed 🎉
+- In order to contribute, firstly set up the react application locally.
+- Now make an issue of the feature you wanna introduce.
+- Now create a new branch and code that feature.
+- Now create a pull request.
