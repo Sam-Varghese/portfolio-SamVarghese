@@ -1,4 +1,4 @@
-# Portfolio, Sam Varghese
+# Portfolio 2.0, Sam Varghese
 
 ![My Profile image](public/img.png)
 
