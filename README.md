@@ -1,6 +1,6 @@
 # Portfolio, Sam Varghese
 
-![My Profile image](../project-portfolio/src/Components/introduction/assets/profileImage.png)
+![My Profile image](public/img.png)
 
 Hey folks this is the repository containing the source code of [my portfolio](sam-varghese.com). Here are the technologies used in order to develop this portfolio:
 
