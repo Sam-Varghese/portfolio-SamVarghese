@@ -1,3 +1,13 @@
+# Portfolio, Sam Varghese
+
+Hey folks this is the repository containing the source code of [my portfolio](sam-varghese.com). Here are the technologies used in order to develop this portfolio:
+
+- [React JS](https://reactjs.org/)
+- [Sass](https://sass-lang.com/)
+- [AWS](https://aws.amazon.com/)
+- [AWS Route 53](https://aws.amazon.com/route53/)
+- [AWS Amplify](https://aws.amazon.com/amplify/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
