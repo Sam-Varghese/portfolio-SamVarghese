@@ -10,6 +10,10 @@ Hey folks this is the repository containing the source code of [my portfolio](sa
 - [AWS Route 53](https://aws.amazon.com/route53/)
 - [AWS Amplify](https://aws.amazon.com/amplify/)
 
+This repository is connected with [AWS Amplify](https://aws.amazon.com/amplify/). So every time I push a code, continuous deployment takes place, and [sam-varghese.com](sam-varghese.com) automatically gets updated with the pushed code.
+
+![AWS Amplify Deployment ss](public/amplify.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
