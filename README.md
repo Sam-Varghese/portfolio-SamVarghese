@@ -2,7 +2,7 @@
 
 ![My Profile image](public/img.png)
 
-Hey folks this is the repository containing the source code of my portfolio (sam-varghese.com). Here are the technologies used in order to develop this portfolio:
+Hey folks this is the repository containing the source code of my portfolio (<a href="https:/sam-varghese.com">sam-varghese.com</a>). Here are the technologies used in order to develop this portfolio:
 
 - [React JS](https://reactjs.org/)
 - [Sass](https://sass-lang.com/)
