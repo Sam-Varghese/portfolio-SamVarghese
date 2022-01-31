@@ -16,10 +16,10 @@ function renderMenuItem(forPage, pageName, trueOutput, falseOutput) {
 }
 
 // Link for AWS Deployment
-const link = "https://www.sam-varghese.com/";
+// const link = "https://www.sam-varghese.com/";
 
 // Link for local website, for development purpose
-// const link = "http://localhost:3000/";
+const link = "http://localhost:3000/";
 
 // Function to render all the menu items
 function Menu(props) {

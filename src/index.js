@@ -12,29 +12,9 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
-  
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />}>
-        </Route>
-        <Route path="/achievements" element={<Achievements />}>
-        </Route>
-        <Route path="/introduction" element={<Introduction />}>
-        </Route>
-        <Route path="/skills" element={<Skills />}>
-        </Route>
-        <Route path="/certificates" element={<DisplayCertificates />}>
-        </Route>
-        <Route path="/experience" element={<Experience />}>
-        </Route>
-        <Route path="/contact" element={<Contact />}>
-        </Route>
-        <Route path="/projects" element={<Projects />}>
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
+    <HomePage />
+  )
 }
 
 ReactDOM.render(
