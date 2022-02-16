@@ -16,7 +16,7 @@ function renderMenuItem(forPage, pageName, trueOutput, falseOutput) {
 }
 
 // Link for AWS Deployment
-const link = "https://www.sam-varghese.com/";
+const link = "https://main.d2mxrftk0k0tj8.amplifyapp.com/";
 
 // Link for local website, for development purpose
 // const link = "http://localhost:3000/";
