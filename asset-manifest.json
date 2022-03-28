@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/PORTFOLIO-SAMVARGHESE/static/css/main.cf85cc9e.css",
+    "main.js": "/PORTFOLIO-SAMVARGHESE/static/js/main.11cfe61b.js",
+    "static/js/787.7ec160db.chunk.js": "/PORTFOLIO-SAMVARGHESE/static/js/787.7ec160db.chunk.js",
+    "static/media/website.png": "/PORTFOLIO-SAMVARGHESE/static/media/website.eb64331bfecae9347ac8.png",
+    "static/media/profileImage.png": "/PORTFOLIO-SAMVARGHESE/static/media/profileImage.09645506f6f4cb1ab8b1.png",
+    "static/media/Sica.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/Sica.21fb27db186cc3e23fa7.jpg",
+    "static/media/NCC.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/NCC.6360058cb81385dd2ec4.jpg",
+    "static/media/img1.png": "/PORTFOLIO-SAMVARGHESE/static/media/img1.40cbe96dc9ec0c429930.png",
+    "static/media/NMIMS.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/NMIMS.b6990b9cf6a869fe54fb.jpg",
+    "static/media/calculator.png": "/PORTFOLIO-SAMVARGHESE/static/media/calculator.89c8e3f2b6006a7c3aee.png",
+    "static/media/GDSC.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/GDSC.b14ab530406e3c985f0f.jpg",
+    "static/media/UKriti.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/UKriti.39d87052af8421764840.jpg",
+    "static/media/dsc.png": "/PORTFOLIO-SAMVARGHESE/static/media/dsc.8892cf10385fbe402c72.png",
+    "static/media/tuitionManagement.png": "/PORTFOLIO-SAMVARGHESE/static/media/tuitionManagement.1724e6dc95d8dc8f3477.png",
+    "static/media/instagram.png": "/PORTFOLIO-SAMVARGHESE/static/media/instagram.a20e01c74f9440e39ea2.png",
+    "static/media/calculator.webp": "/PORTFOLIO-SAMVARGHESE/static/media/calculator.45a8b1672da69af07eb9.webp",
+    "static/media/discord.png": "/PORTFOLIO-SAMVARGHESE/static/media/discord.347df443588d79e9693e.png",
+    "static/media/MTA.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/MTA.19c305bfb3e7c476832a.jpg",
+    "static/media/stackOverflow.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/stackOverflow.d3ccd6b2e28acf48573d.jpg",
+    "static/media/github.png": "/PORTFOLIO-SAMVARGHESE/static/media/github.553c66159c5672f25df6.png",
+    "static/media/portfolio.png": "/PORTFOLIO-SAMVARGHESE/static/media/portfolio.96bfa7e5c8e0434f26e7.png",
+    "static/media/Icarus.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/Icarus.4b4a228471eaee98b3e1.jpg",
+    "static/media/FCC.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/FCC.2f21f8405f8e5877b9ab.jpg",
+    "static/media/twitter.png": "/PORTFOLIO-SAMVARGHESE/static/media/twitter.40ca840ce71946011d66.png",
+    "static/media/Aista.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/Aista.d5c984734116eb038628.jpg",
+    "static/media/website.webp": "/PORTFOLIO-SAMVARGHESE/static/media/website.85fe7a2685f3a77f3b6e.webp",
+    "static/media/linkedin.png": "/PORTFOLIO-SAMVARGHESE/static/media/linkedin.4c0f23c880c2b4ee206a.png",
+    "static/media/facebook.png": "/PORTFOLIO-SAMVARGHESE/static/media/facebook.a4ea0488a4142a51f8e9.png",
+    "static/media/hackerrank.jpg": "/PORTFOLIO-SAMVARGHESE/static/media/hackerrank.9756c1276734241089ad.jpg",
+    "static/media/MicLogo.png": "/PORTFOLIO-SAMVARGHESE/static/media/MicLogo.5a58f2591e4273b45a7f.png",
+    "index.html": "/PORTFOLIO-SAMVARGHESE/index.html",
+    "static/media/README.md": "/PORTFOLIO-SAMVARGHESE/static/media/README.3423ab9a82b8e8d8caff.md",
+    "main.cf85cc9e.css.map": "/PORTFOLIO-SAMVARGHESE/static/css/main.cf85cc9e.css.map",
+    "main.11cfe61b.js.map": "/PORTFOLIO-SAMVARGHESE/static/js/main.11cfe61b.js.map",
+    "787.7ec160db.chunk.js.map": "/PORTFOLIO-SAMVARGHESE/static/js/787.7ec160db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf85cc9e.css",
+    "static/js/main.11cfe61b.js"
+  ]
+}
