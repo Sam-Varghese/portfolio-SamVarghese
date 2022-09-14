@@ -1,5 +1,6 @@
 .certificateDiv {
   width: 30%;
+  height: 70vh;
   font-family: "Poppins", sans-serif;
   border: 0.5vw ridge gold;
   padding: 1vw;
@@ -7,11 +8,14 @@
   font-size: 1vw;
   text-decoration: none;
   border-radius: 0.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   .certificateTitle {
     // color: blue;
     font-size: 2vw;
     text-align: center;
-    height: 3vw;
     background-color: aliceblue;
     margin-bottom: 1vw;
     padding: 1vw;
@@ -26,13 +30,16 @@
   }
   .certificateDescription {
     color: black;
+    height: 20vh;
   }
   .certificateViewButton {
+    border: 0.2vw solid black;
     padding: 1vw;
     background-color: aqua;
     text-align: center;
     margin-top: 1vw;
     font-size: 1vw;
+    width: 30vw;
     text-decoration: none;
     border-radius: 0.5vw;
     transition: all;

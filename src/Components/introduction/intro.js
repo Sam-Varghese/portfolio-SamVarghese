@@ -25,16 +25,13 @@ function Introduction() {
         </svg>
 
         <div className="profileDescription">
-          Hey there 👋 I am Sam Varghese from Indore, MP. Currently I'm a first
+          Hey there 👋 I am Sam Varghese from Indore, MP. Currently I'm a second
           year student at NMIMS, Indore pursuing MBATech, which is an integrated
           course of MBA in technology, and BTech, in computer engineering. I see
-          myself as an hardworking person, passionate in coding and computer
-          stuffs. Exploring new technologies in order to enhance the quality of
-          softwares is what I like the most. I'm always open to opportunities
-          that can enhance my technical and social skills.
+          myself as an hardworking person, passionate in areas like artificial intelligence and machine learning.
         </div>
         <img
-          src={require("./assets/profileImage.png")}
+          src={require("./assets/ProfileImage.jpg")}
           className="profileImage"
         />
       </div>

@@ -10,6 +10,7 @@ import Contact from "./Components/contact/contact";
 import Projects from "./Components/projects/projects";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
 
 export default function App() {
   
