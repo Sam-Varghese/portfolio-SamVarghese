@@ -2,7 +2,7 @@
     "name": "project-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://Sam-Varghese.github.io/PORTFOLIO-SAMVARGHESE",
+    "homepage": "/",
     "dependencies": {
         "@mui/material": "^5.2.8",
         "@testing-library/jest-dom": "^5.16.1",
