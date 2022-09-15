@@ -7,14 +7,14 @@ let titles = data.achievementsTitle;
 let images = data.achievementsImage;
 let descriptions = data.achievementsDescription;
 
-console.log(`titles = ${titles}`);
-console.log(`images = ${images}`);
+// console.log(`titles = ${titles}`);
+// console.log(`images = ${images}`);
 let counter = 0;
 
 // Making an array of achievements components
 
 let achievementsList = titles.map((object, index) => {
-  console.log(`Object is ${object}`);
+  // console.log(`Object is ${object}`);
   return (
     <AchievementsComponent
       url={images[index]}
@@ -24,7 +24,7 @@ let achievementsList = titles.map((object, index) => {
   );
 });
 
-console.log(achievementsList[0]);
+// console.log(achievementsList[0]);
 
 function Achievements() {
   return (

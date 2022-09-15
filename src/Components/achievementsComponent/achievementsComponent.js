@@ -1,7 +1,7 @@
 import "./achievementsComponents.scss";
 
 function AchievementsComponent(props) {
-  console.log(`URL=${"../achievements/" + props.url}`);
+  // console.log(`URL=${"../achievements/" + props.url}`);
   return (
       <div className="achievement">
         <div className="achievementHeader">
