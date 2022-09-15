@@ -1,5 +1,6 @@
 {
   "achievementsTitle": [
+    "Tech Lead, TEDxNMIMSIndore",
     "CR, NMIMS",
     "Camp. Ambsdr, Devincept",
     "Microsoft Technology Associate",
@@ -10,6 +11,7 @@
     "0.74% Stack Overflow"
   ],
   "achievementsImage": [
+    "achievementsImages/TEDxNMIMSIndore.jpg",
     "achievementsImages/NMIMS.jpg",
     "achievementsImages/devincept.jpg",
     "achievementsImages/MicLogo.png",
@@ -20,6 +22,7 @@
     "achievementsImages/stackOverflow.jpg"
   ],
   "achievementsDescription": [
+    "Got selected as the Tech Lead for the TEDxNMIMSIndore event. I was responsible for managing all the technical aspects of the event. Created a website for TEDx in React, and deployed it on AWS.",
     "Became the class representative of the MBATech branch of NMIMS, Indore for the year 2021. Dr Aaquil, the Dean of NMIMS, Indore selected me on the basis of previous grades. Had to represent the class, take important decisions, coordinate with professors, etc.",
     "Became a campus ambassador at devincept. Interviews were taken by the devincept community in order select it's campus ambassadors. Had to attend it's sessions, hackathons, find tech experts for it's events.",
     "Became a Microsoft Technology Associate in my 12th grade itself. Had to clear the Microsoft 98-381 exam, which is for python programming language in order to get recognized as a technology associate.",
