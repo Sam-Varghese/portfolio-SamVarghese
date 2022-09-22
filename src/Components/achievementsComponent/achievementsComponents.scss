@@ -1,60 +1,72 @@
 .achievement {
-  width: 40%;
-  height: 60%;
-  border: 0.5vw ridge gold;
-  padding: 0.5vw;
-  font-family: "Poppins", sans-serif;
-  margin: 1vw;
-  .achievementHeader {
-    display: flex;
-    justify-content: center;
-    background-color: beige;
-    font-size: 1vw;
-  }
-  .achievementBanner {
-    display: flex;
-    justify-content: center;
-    //   border: 2px solid;
-    height: 128px;
-    padding-bottom: 1vw;
-    padding-top: 1vw;
+    width: 40%;
+    height: 60%;
+    border: 0.5vw ridge gold;
+    padding: 0.5vw;
+    font-family: "Poppins", sans-serif;
+    background: #ece9e6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #ffffff,
+        #ece9e6
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #ffffff,
+        #ece9e6
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    img {
-      object-fit: cover;
-      height: 80%;
+    margin: 1vw;
+    .achievementHeader {
+        display: flex;
+        justify-content: center;
+        background-color: beige;
+        font-size: 1vw;
     }
-  }
-  .achievementDescription {
-    padding: 1vw;
-    background-color: aliceblue;
-  }
+    .achievementBanner {
+        display: flex;
+        justify-content: center;
+        //   border: 2px solid;
+        height: 128px;
+        padding-bottom: 1vw;
+        padding-top: 1vw;
+
+        img {
+            object-fit: cover;
+            height: 80%;
+        }
+    }
+    .achievementDescription {
+        padding: 1vw;
+        // background-color: aliceblue;
+    }
 }
 
 @media screen and (max-width: 950px) {
-  .achievement {
-    height: 55%;
-    width: 50%;
-  }
+    .achievement {
+        height: 55%;
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .achievementHeader {
-    h1 {
-      font-size: 4vw;
-      display: flex;
-      justify-content: center;
-      background-color: beige;
+    .achievementHeader {
+        h1 {
+            font-size: 4vw;
+            display: flex;
+            justify-content: center;
+            background-color: beige;
+        }
     }
-  }
 
-  .achievementBanner {
-    img {
-      width: 50vw;
-      object-fit: none;
+    .achievementBanner {
+        img {
+            width: 50vw;
+            object-fit: none;
+        }
     }
-  }
 
-  .achievement {
-    width: 90%;
-  }
+    .achievement {
+        width: 90%;
+    }
 }

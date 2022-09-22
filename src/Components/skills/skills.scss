@@ -9,15 +9,19 @@
   margin: 1vw;
   width: 8vw;
   flex-shrink: 1;
-  background-image: linear-gradient(white, rgb(225, 0, 255), rgb(10, 9, 9));
+  background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   display: flex;
   align-items: center;
   justify-content: center;
   // border: 2px solid blue;
   border-radius: 0.5vw;
-  height: 15vh;
+  height: 20vh;
   svg {
     width: 7vw;
+    
   }
   img {
     width: 7vw;
