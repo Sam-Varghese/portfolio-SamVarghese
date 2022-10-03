@@ -1,30 +1,35 @@
 {
-    "projectTitle": ["Scientific Calculator", "Tuition Management System", "Website, Paul Classes", "Portfolio"],
+    "projectTitle": ["Math Symbol Recognizer", "Scientific Calculator", "Tuition Management System", "Website, Paul Classes", "Portfolio"],
     "projectBannerLinks": [
+        "projectsBanner/math.jpg",
         "projectsBanner/calculator.png",
         "projectsBanner/tuitionManagement.png",
         "projectsBanner/website.png",
         "projectsBanner/portfolio.png"
     ],
     "projectsUrl": [
+        "https://github.com/Sam-Varghese/Handwritten-Math-Symbol-Recognizer",
         "https://github.com/Sam-Varghese/Scientific-Calculator",
         "https://github.com/Sam-Varghese/Hack-It-Out-Project",
         "https://github.com/Sam-Varghese/PaulClassesWebsite",
         "https://github.com/Sam-Varghese/portfolio-SamVarghese"
     ],
     "projectsDescription": [
+        "A machine learning model which is capable of recognizing all the digits, as well as variables x, y, and z.",
         "Made a scientific calculator out of HTML, CSS and JavaScript. Learnt Math.js framework and about API's.",
         "This is a software I made for the Hack It Out hackathon. It's basically a software to manage coaching classes. Frontend part has been done, but backend work is left. Learnt many frameworks while working on this project.",
         "This is a website I made for my father's coaching classes when I was in 12th grade. Made it with HTML, CSS and JavaScript. Used Google maps API too.",
         "An this is my portfolio which I made in React js. This is my first project in React js. I learnt this amazing framework while working on my portfolio project."
     ],
     "projectDuration": [
+        "Sept 2022 - Sept 2022",
         "Sept 2021 - Sept 2021",
         "Oct 2021 - Oct 2021",
         "Mar 2021 - Sept 2021",
         "Dec 2021 - Jan 2021"
     ],
     "projectsLearning": [
+        ["Tensorflow", "Python", "Keras", "CNN's"],
         ["HTML", "CSS", "JavaScript", "Math.js", "Desmos API"],
         ["Plot.js", "HTML", "CSS", "Express Js", "Bootstrap", "Tabulator Js", "Chart Js"],
         ["HTML", "CSS", "JavaScript", "Google Maps API"],

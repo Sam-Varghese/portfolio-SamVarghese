@@ -1,85 +1,93 @@
 .experience {
-  margin: 1vw;
-  padding: 1vw;
-  border: 1vw ridge gold;
-  font-size: 1.3vw;
-  font-family: "Poppins", sans-serif;
-  border-radius: 0.5vw;
-  .experienceTitle {
-    background-color: aquamarine;
-    // text-align: center;
-    padding: center;
-    font-size: 2vw;
-    padding: 1vw;
     margin: 1vw;
-    border-radius: 0.5vw;
-  }
-  .experienceDuration {
-    float: right;
-  }
-  .experienceBanner {
     padding: 1vw;
-    display: flex;
-    justify-content: center;
-    img {
-      width: 15vw;
+    border: 1vw ridge gold;
+    font-size: 1.3vw;
+    font-family: "Poppins", sans-serif;
+    border-radius: 0.5vw;
+    .experienceTitle {
+        background-color: aquamarine;
+        // text-align: center;
+        padding: center;
+        font-size: 2vw;
+        padding: 1vw;
+        margin: 1vw;
+        border-radius: 0.5vw;
     }
-    border-radius: 0.5vw;
-  }
-  .experienceDescription {
-    color: black;
-  }
-  .techsWorkedWith {
-  }
-  .subHeadings {
-    font-size: 1.5vw;
+    .experienceDuration {
+        float: right;
+    }
+    .experienceBanner {
+        padding: 1vw;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 15vw;
+        }
+        border-radius: 0.5vw;
+    }
+    .experienceDescription {
+        color: black;
+    }
+    .techsWorkedWith {
+    }
+    .subHeadings {
+        font-size: 1.5vw;
+        margin: 1vw;
+        padding: 1vw;
+        border-radius: 0.5vw;
+        background-color: aliceblue;
+    }
+    .projectViewButton {
+        padding: 1vw;
+        background-color: aqua;
+        text-align: center;
+        margin-top: 1vw;
+        font-size: 1vw;
+        text-decoration: none;
+        border-radius: 0.5vw;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+    .projectViewButton:hover {
+        background-color: aquamarine;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.skillsButton {
+    padding: 1vw;
     margin: 1vw;
-    padding: 1vw;
     border-radius: 0.5vw;
-    background-color: aliceblue;
-  }
-  .projectViewButton {
-    padding: 1vw;
-    background-color: aqua;
-    text-align: center;
-    margin-top: 1vw;
     font-size: 1vw;
-    text-decoration: none;
-    border-radius: 0.5vw;
-    transition: all;
-    transition-duration: 0.5s;
-  }
-  .projectViewButton:hover {
-    background-color: aquamarine;
-  }
-  a {
-    text-decoration: none;
-  }
+    background-color: skyblue;
 }
 
 @media screen and (max-width: 600px) {
-  .experience {
-    .experienceTitle {
-      font-size: 4vw;
-      display: flex;
-      justify-content: center;
+    .experience {
+        .experienceTitle {
+            font-size: 4vw;
+            display: flex;
+            justify-content: center;
+        }
+        .experienceBanner {
+            img {
+                width: 30vw;
+            }
+        }
+        .subHeadings {
+            font-size: 3.5vw;
+        }
+        .experienceDescription {
+            font-size: 3vw;
+        }
+        .techsWorkedWith {
+            font-size: 3vw;
+        }
+        .projectViewButton {
+            font-size: 3vw;
+        }
     }
-    .experienceBanner{
-      img{
-        width: 30vw;
-      }
-    }
-    .subHeadings{
-      font-size: 3.5vw;
-    }
-    .experienceDescription{
-      font-size: 3vw;
-    }
-    .techsWorkedWith{
-      font-size: 3vw;
-    }
-    .projectViewButton{
-      font-size: 3vw;
-    }
-  }
 }

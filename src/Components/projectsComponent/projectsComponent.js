@@ -5,7 +5,7 @@ function ProjectsComponent(props) {
   // props.technologiesUsed will be an arrays of techs
   // Making list items out of that array elements
   const techLearnt = props.technologiesUsed.map((object, index) => {
-    return <li>{object}</li>;
+    return <button className = "skillsButton">{object}</button>;
   });
 
   return (
@@ -19,7 +19,7 @@ function ProjectsComponent(props) {
       <div className="experienceDescription">{props.description}</div>
       <div className="subHeadings">Skills Gained</div>
       <div className="techsWorkedWith">
-        <ul>{techLearnt}</ul>
+        {techLearnt}
       </div>
       <a href={props.projectLink} target="_blank">
         <div className="projectViewButton">View</div>
