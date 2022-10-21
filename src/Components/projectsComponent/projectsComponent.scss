@@ -1,12 +1,13 @@
 .experience {
     margin: 1vw;
     padding: 1vw;
-    border: 1vw ridge gold;
+    border: 0.5vw ridge #b0a295;
     font-size: 1.3vw;
+    color: white;
     font-family: "Poppins", sans-serif;
     border-radius: 0.5vw;
     .experienceTitle {
-        background-color: aquamarine;
+        background-color: #555354;
         // text-align: center;
         padding: center;
         font-size: 2vw;
@@ -27,18 +28,18 @@
         border-radius: 0.5vw;
     }
     .experienceDescription {
-        color: black;
+        color: white;
     }
     .subHeadings {
         font-size: 1.5vw;
         margin: 1vw;
         padding: 1vw;
+        background-color: #555354;
         border-radius: 0.5vw;
-        background-color: aliceblue;
     }
     .projectViewButton {
         padding: 1vw;
-        background-color: aqua;
+        background-color: #557A95;
         text-align: center;
         margin-top: 1vw;
         font-size: 1vw;
@@ -46,9 +47,11 @@
         border-radius: 0.5vw;
         transition: all;
         transition-duration: 0.5s;
+        color: white;
     }
     .projectViewButton:hover {
-        background-color: aquamarine;
+        background-color: #b0a295;
+        color: black;
     }
     a {
         text-decoration: none;
@@ -60,13 +63,13 @@
     margin: 1vw;
     border-radius: 0.5vw;
     font-size: 1vw;
-    background-color: skyblue;
+    // background-color: skyblue;
 }
 
 @media screen and (max-width: 600px) {
     .experience {
         .experienceTitle {
-            font-size: 4vw;
+            font-size: large;
             display: flex;
             justify-content: center;
         }
@@ -76,16 +79,19 @@
             }
         }
         .subHeadings {
-            font-size: 3.5vw;
+            font-size: medium;
         }
         .experienceDescription {
-            font-size: 3vw;
+            font-size: small;
         }
         .techsWorkedWith {
-            font-size: 3vw;
+            font-size: small;
         }
         .projectViewButton {
-            font-size: 3vw;
+            font-size: small;
+        }
+        .skillsButton{
+            font-size: small;
         }
     }
 }

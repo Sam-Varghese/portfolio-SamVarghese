@@ -9,7 +9,7 @@ import mailIcon from "./icons/mail.png";
 
 function Contact() {
     return (
-        <div>
+        <div className = "contactsPage">
             <Menu forPage="Contact" />
             <div className="contactDiv">
                 <a

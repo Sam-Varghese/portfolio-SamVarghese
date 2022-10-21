@@ -1,27 +1,16 @@
 .achievement {
     width: 40%;
     height: 60%;
-    border: 0.5vw ridge gold;
+    border: 0.5vw ridge #b0a295;
     padding: 0.5vw;
     font-family: "Poppins", sans-serif;
-    background: #ece9e6; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to right,
-        #ffffff,
-        #ece9e6
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to right,
-        #ffffff,
-        #ece9e6
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     margin: 1vw;
     .achievementHeader {
         display: flex;
         justify-content: center;
-        background-color: beige;
+        background-color: #555354;
         font-size: 1vw;
+        color: white;
     }
     .achievementBanner {
         display: flex;
@@ -32,13 +21,16 @@
         padding-top: 1vw;
 
         img {
-            object-fit: cover;
-            height: 80%;
+            // object-fit: cover;
+            object-fit: contain;
+            height: 14vh;
         }
     }
     .achievementDescription {
         padding: 1vw;
-        // background-color: aliceblue;
+        font-size: 1vw;
+        color: white;
+        background-color: #557a95;
     }
 }
 
@@ -52,10 +44,9 @@
 @media screen and (max-width: 600px) {
     .achievementHeader {
         h1 {
-            font-size: 4vw;
+            font-size: large;
             display: flex;
             justify-content: center;
-            background-color: beige;
         }
     }
 
@@ -68,5 +59,8 @@
 
     .achievement {
         width: 90%;
+        .achievementDescription {
+            font-size: small;
+        }
     }
 }

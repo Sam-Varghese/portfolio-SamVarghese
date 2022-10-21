@@ -44,5 +44,21 @@
     margin: 1vw;
     border-radius: 0.5vw;
     font-size: 1vw;
-    background-color: skyblue;
+    color: white;
+    background-color: #557A95;
+}
+
+@media screen and (max-width: 600px) {
+  .experienceDescription{
+    font-size: small;
+  }
+  .experienceTitle{
+    font-size: large;
+  }
+  .skillsButton{
+    font-size: small;
+  }
+  .subHeadings{
+    font-size: medium;
+  }
 }

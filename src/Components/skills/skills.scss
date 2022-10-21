@@ -1,61 +1,25 @@
-.skillsDiv {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.skillsPage{
+    background-color: #7395ae;
+    min-height: 100vh;
 }
 
-.skillsIcon {
-  padding-top: 1vw;
-  margin: 1vw;
-  width: 8vw;
-  flex-shrink: 1;
-  background: #E0EAFC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.skillsSection{
   display: flex;
   align-items: center;
   justify-content: center;
-  // border: 2px solid blue;
-  border-radius: 0.5vw;
-  height: 20vh;
-  svg {
-    width: 7vw;
-    
-  }
-  img {
-    width: 7vw;
+  flex-wrap: wrap;
+  img{
+    margin: 1vw;
   }
 }
 
-@media screen and (max-width: 900px) {
-  .skillsIcon {
-    height: 10vh;
-  }
+.techIcon{
+  width: 5vw;
 }
 
-@media screen and (max-width: 600px) {
-  .skillsIcon {
-    height: 20vh;
-    width: 20vw;
-    svg {
-      width: 10vw;
-    }
-    img {
-      width: 10vw;
-    }
-  }
-}
 
-@media screen and (max-width: 410px) {
-  .skillsIcon {
-    height: 20vh;
-    width: 20vw;
-    svg {
-      width: 15vw;
-    }
-    img {
-      width: 15vw;
-    }
+@media only screen and (max-width: 950px) {
+  .techIcon{
+    width: 15vw;
   }
 }

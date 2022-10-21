@@ -4,13 +4,14 @@
   justify-content: center;
   padding: 1vw;
   flex-wrap: wrap;
+  background-color: #557A95;
 }
 
 .menuItem {
   padding: 1vw;
   text-align: center;
   display: inline-block;
-  background-color: rgb(9, 174, 239);
+  background-color: #7395AE;
   margin: 1vw;
   color: white;
   font-size: 1.3vw;
@@ -27,10 +28,10 @@
   padding: 1vw;
   text-align: center;
   display: inline-block;
-  background-color: rgb(118, 243, 16);
+  background-color: #5D5C61;
   font-size: 1.3vw;
   margin: 1vw;
-  color: black;
+  color: white;
   // font-size: 1.3vw;
   font-family: "Poppins", sans-serif;
   transition: all;
@@ -43,7 +44,7 @@
 }
 
 .menuItem:hover {
-  background-color: rgb(174, 232, 126);
+  background-color: #938e94;
   color: black;
 }
 
@@ -51,9 +52,9 @@
 
 @media only screen and (max-width: 600px){
   .menuItem{
-    font-size: 3vw;
+    font-size: small;
   }
   .menuItemActive{
-    font-size: 3vw;
+    font-size: small;
   }
 }

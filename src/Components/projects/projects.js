@@ -26,7 +26,7 @@ const projectComponents = titles.map((object, index) => {
 
 function Projects() {
   return (
-    <div>
+    <div className = "projectsPage">
       <Menu forPage="Projects"/>
       {projectComponents}
     </div>

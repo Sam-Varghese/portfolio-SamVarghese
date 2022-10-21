@@ -4,9 +4,20 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 90vh;
+  // height: 110vh;
   // border: 2px solid red;
   align-items: center;
+  background-color: #7395AE;
+
+}
+
+.introPage{
+  background-color: #7395AE;
+
+}
+
+a {
+  color: cyan;
 }
 
 .svgStyle {
@@ -20,13 +31,16 @@
   font-size: 1.3vw;
   font-family: "Poppins", sans-serif;
   padding: 1vw;
+  color: white;
   
 }
 
 .profileImage {
-  padding: 0vw;
-  width: 30vw;
+  // width: 30vw;
+  margin-bottom: 1vw;
+  height: 75vh;
   min-width: 300px;
+  box-shadow: 0.5vw 0.5vw 0.5vw #557A95;
   // border: 2px solid;
 }
 

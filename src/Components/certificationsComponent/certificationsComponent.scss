@@ -1,79 +1,81 @@
 .certificateDiv {
-  width: 30%;
-  height: 70vh;
-  font-family: "Poppins", sans-serif;
-  border: 0.5vw ridge gold;
-  padding: 1vw;
-  margin: 1vw;
-  font-size: 1vw;
-  text-decoration: none;
-  border-radius: 0.5vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: #ECE9E6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  .certificateTitle {
-    // color: blue;
-    font-size: 2vw;
-    text-align: center;
-    background-color: aliceblue;
-    margin-bottom: 1vw;
-    padding: 1vw;
-  }
-  .certificateBanner {
-    display: flex;
-    margin-bottom: 1vw;
-    justify-content: center;
-    img {
-      width: 5vw;
-    }
-  }
-  .certificateDescription {
-    color: black;
-    height: 20vh;
-  }
-  .certificateViewButton {
-    border: 0.2vw solid black;
-    padding: 1vw;
-    background-color: aliceblue;
-    text-align: center;
-    margin-top: 1vw;
+    width: 40%;
+    // height: 70vh;
+    border: 0.5vw ridge #b0a295;
+    margin: 1vw;
     font-size: 1vw;
-    width: 30vw;
     text-decoration: none;
     border-radius: 0.5vw;
-    transition: all;
-    transition-duration: 0.5s;
-  }
-  .certificateViewButton:hover{
-      background-color: rgb(9, 174, 239);
-      color: white;
-  }
-  a:link {
-    text-decoration: none;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+    .certificateTitle {
+        // color: blue;
+        font-size: 2vw;
+        text-align: center;
+        background-color: #555354;
+        margin-bottom: 1vw;
+        padding: 1vw;
+    }
+    .certificateBanner {
+        display: flex;
+        margin-bottom: 1vw;
+        justify-content: center;
+        img {
+            width: 5vw;
+        }
+    }
+    .certificateDescription {
+        color: white;
+        // height: 20vh;
+        background-color: #557A95;
+        font-size: 1vw;
+        display: flex;
+        padding: 1vw;
+        align-items: center;
+    }
+    .certificateViewButton {
+        border: 0.2vw solid black;
+        padding: 1vw;
+        background-color: #557A95;
+        text-align: center;
+        margin-top: 1vw;
+        font-size: 1vw;
+        width: 30vw;
+        text-decoration: none;
+        border-radius: 0.5vw;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+    .certificateViewButton:hover {
+        background-color: #5D5C61;
+        color: white;
+    }
+    a:link {
+        text-decoration: none;
+    }
 }
 
-@media screen and (max-width: 600px){
-  .certificateDiv{
-    width: 90%;
-    .certificateTitle{
-      font-size: 4vw;
+@media screen and (max-width: 600px) {
+    .certificateDiv {
+        width: 90%;
+        .certificateTitle {
+            font-size: large;
+        }
+        .certificateBanner {
+            img {
+                width: 15vw;
+            }
+        }
+        .certificateDescription {
+            font-size: small;
+        }
+        .certificateViewButton {
+            font-size: small;
+            color: white;
+        }
     }
-    .certificateBanner{
-      img{
-        width: 15vw;
-      }
-    }
-    .certificateDescription{
-      font-size: 3vw;
-    }
-    .certificateViewButton{
-      font-size: 3vw;
-    }
-  }
 }
