@@ -35,6 +35,11 @@ In order to run this application locally, follow these steps
 
 **Feel free to open an issue in case of any difficulty while setting up the project**
 
+# Color Scheme Links
+
+- [Site](https://visme.co/blog/website-color-schemes/)
+- [Image](https://visme.co/blog/wp-content/uploads/2016/09/website7-1024x512.jpg)
+
 # Contributions
 
 - Contributions of all kinds are welcomed 🎉
