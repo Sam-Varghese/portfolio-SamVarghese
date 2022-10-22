@@ -13,36 +13,30 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 
 export default function App() {
-  
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />}>
-        </Route>
-        <Route path="/achievements" element={<Achievements />}>
-        </Route>
-        <Route path="/introduction" element={<Introduction />}>
-        </Route>
-        <Route path="/skills" element={<Skills />}>
-        </Route>
-        <Route path="/certificates" element={<DisplayCertificates />}>
-        </Route>
-        <Route path="/experience" element={<Experience />}>
-        </Route>
-        <Route path="/contact" element={<Contact />}>
-        </Route>
-        <Route path="/projects" element={<Projects />}>
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage />}></Route>
+                <Route path="/achievements" element={<Achievements />}></Route>
+                <Route path="/introduction" element={<Introduction />}></Route>
+                <Route path="/skills" element={<Skills />}></Route>
+                <Route
+                    path="/certificates"
+                    element={<DisplayCertificates />}
+                ></Route>
+                <Route path="/experience" element={<Experience />}></Route>
+                <Route path="/contact" element={<Contact />}></Route>
+                <Route path="/projects" element={<Projects />}></Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+    document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
